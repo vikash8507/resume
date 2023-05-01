@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font: 12pt "Tahoma";
+  }
+
+  * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .page {
+    width: 21cm;
+    min-height: 29.7cm;
+    margin: 0cm auto;
+    border: 1px #d3d3d3 solid;
+    background: white;
+  }
+
+  li {
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .main-wrapper {
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .main-wrapper .title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2d7788;
+    position: relative;
+    margin-top: -5px;
+  }
+
+  .main-wrapper ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+  }
+
+  .main-wrapper li {
+    margin: 0px;
+    padding: 0px;
+    list-style: disc;
+  }
+
+  .main-wrapper .main-content {
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #545E6C;
+  }
+
+  .main-wrapper .projects p {
+    margin-left: 20px;
+    font-size: 14px;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #545E6C;
+  }
+
+  .main-wrapper .projects .project-title {
+    display: block;
+    color: #055f74;
+    margin-bottom: 0px;
+  }
+
+  .main-wrapper .projects li {
+    font-size: 14px;
+    color: #545E6C;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+
+  .side-wrapper {
+    width: 40%;
+    height: 100%;
+    float: right;
+    background-color: #42A8C0;
+    color: white;
+  }
+
+  .side-wrapper .profile {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #0e4d5c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+  }
+
+  .side-wrapper .profile h3 {
+    margin-top: 10px;
+    font-size: 28px;
+  }
+
+  .side-wrapper .profile p {
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+  }
+
+  .side-wrapper .contact {
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+  }
+
+  .side-wrapper .contact li {
+    margin: 0px;
+    margin-bottom: 3px;
+    padding: 0px;
+    font-size: 14px;
+  }
+
+  .side-wrapper .skills {
+    width: 100%;
+    padding: 20px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .side-wrapper .skills .title {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  .side-wrapper .skills .sub-title {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 3px
+  }
+
+  .side-wrapper .skills span {
+    font-size: 14px;
+    padding: 7px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #055f74;
+  }
+
+  .side-wrapper .education {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+
+  .side-wrapper .education .title {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  .side-wrapper .education .sub-title {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .side-wrapper .education h4 {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .side-wrapper .certification {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+
+  .side-wrapper .certification .title {
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 8px;
+  }
+
+  .side-wrapper .certification li {
+    margin: 0px;
+    margin-bottom: 3px;
+    padding: 0px;
+    font-size: 14px;
+  }
+
+  .side-wrapper .acheivement {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 28px;
+  }
+
+  .side-wrapper .acheivement h3 {
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 8px;
+  }
+
+  .side-wrapper .acheivement li {
+    margin: 0px;
+    margin-bottom: 3px;
+    padding: 0px;
+    font-size: 14px;
+  }
+
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  @media print {
+    .page {
+      margin: 0;
+      border: initial;
+      border-radius: initial;
+      width: initial;
+      min-height: initial;
+      box-shadow: initial;
+      background: initial;
+      page-break-after: always;
+    }
+  }
